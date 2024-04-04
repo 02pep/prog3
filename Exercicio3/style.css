@@ -2,34 +2,94 @@ nav {
 border-style: solid;
 border-color: DodgerBlue;
 background-color: DodgerBlue;
+text-align: center;
+text-spacing: 1px
 }
 
 a {
-color: #EEEEFF;
-text-decoration: none;
-}
-
-a: hover, a: active {
-color: #BBBBFF;
-text-decoration: none;
+font-family: Arial;
+font-size: 16px;
+color: DodgerBlue;
 }
 
 h1 {
 color: blue;
 }
 
-div.banner {
- margin-right: 13%;
- margin-left: 13%;
+div.tela {
+margin-left: 13%;
+margin-right: 13%;
+background-color: #FFFFBB;
 }
 
-div.body {
-margin-left: 0%;
-border-style: solid;
-padding-right: 25%;
+
+img {
+display: block;
+max-width: 100%;
+min-width: 100%;
 }
 
 div.jogos {
-margin-top: 10%;
-border-style: solid;
+position: absolute;
+padding-left: 55%;
 }
+
+div.corpo {
+width: 70%;
+padding-left: 2%
+}
+
+ul.menu, ul.assoc {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover {
+background-color: Blue;
+}
+
+p {
+font-family: Bahnschrift;
+}
+
+h1 {
+font-family: Calibri;
+}
+
+h1.jogo {
+font-family: Arial;
+font-size: 16px;
+color: #AAAAAA;
+}
+
+a.assoc {
+color: #FFFFFF;
+background-color: DodgerBlue;
+text-align: center;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border=1px;
+border-style: solid;
+border-color: #BBBBBB;
+border-collapse: collapse;
+text-align: center;
+}
+
+
+
