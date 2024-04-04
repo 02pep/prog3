@@ -1,0 +1,35 @@
+nav {
+border-style: solid;
+border-color: DodgerBlue;
+background-color: DodgerBlue;
+}
+
+a {
+color: #EEEEFF;
+text-decoration: none;
+}
+
+a: hover, a: active {
+color: #BBBBFF;
+text-decoration: none;
+}
+
+h1 {
+color: blue;
+}
+
+div.banner {
+ margin-right: 13%;
+ margin-left: 13%;
+}
+
+div.body {
+margin-left: 0%;
+border-style: solid;
+padding-right: 25%;
+}
+
+div.jogos {
+margin-top: 10%;
+border-style: solid;
+}
